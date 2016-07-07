@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#00ff0000</color>
+    <color name="green">#0000ff00</color>
+    <color name="blue">#000000ff</color>
+    <color name="drop_target_color1">#00993311</color>
+    <color name="drop_target_color2">#00a99033</color>
+    <color name="drop_target_enabled">#00009933</color>
+    <color name="drop_target_disabled">#00dddddd</color>
+</resources>

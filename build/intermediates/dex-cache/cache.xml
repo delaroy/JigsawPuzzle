@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\delaroystudios\Desktop\KidsJigsawPuzzles1\app\libs\GoogleAdMobAdsSdk-6.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e6b52dcd6402380542cb37557bd04e06e6d7e47d">
+        <dex dex="C:\Users\delaroystudios\Desktop\KidsJigsawPuzzles1\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.0.1_954a803b43746a66e619d6c01f1ad5b752a0c3ca.jar" />
+    </item>
+    <item
+        jar="C:\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\delaroystudios\Desktop\KidsJigsawPuzzles1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_e849bc26d4efd9b7f86fe2f331ebd71618a3b224.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kids Jigsaw Puzzles</string>
+    <string name="uri_more_app">market://search?q=DeveloperID jigsaw</string>
+    <string name="uri_app_link">https://play.google.com/store/apps/developer?id=YourDevID</string>
+    <string name="uri_app_rate">market://details?id=codebhak.jigsaw.puzzle.kids</string>
+
+	<string name="homebutton">Home button - Go to home splash screen</string>
+	<string name="puzzlelayout">Puzzle layout</string>
+	<string name="puzzledone">Puzzle completion layout</string>
+</resources>

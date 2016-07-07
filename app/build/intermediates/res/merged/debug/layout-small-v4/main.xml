@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_main" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="bottom|center_horizontal">
+  	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="MY_AD_UNIT_ID"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                         ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+
+    <!-- <com.delaroystudios.jigsaw.CTFrameLayout -->
+
+    <LinearLayout
+        android:id="@+id/btnPrev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/prev_selector" />
+    </LinearLayout>
+
+    <com.delaroystudios.jigsaw.CTFrameLayout
+        android:id="@+id/fr_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical">
+
+            <ImageView
+                android:id="@+id/fix_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"            
+                android:layout_marginBottom="40dp"
+                android:contentDescription="@string/puzzlelayout"
+                android:src="@drawable/a_layout" />
+
+            <LinearLayout
+                android:id="@+id/btnNext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical" >
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/next_selector" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/img_showWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/puzzledone"
+            android:src="@drawable/a"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imageView_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/homebutton"
+            android:src="@drawable/home_selector" />
+
+        <ImageView
+            android:id="@+id/imageView_home1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/homebutton"
+            android:src="@drawable/home_selector"
+            android:visibility="gone" />
+    </com.delaroystudios.jigsaw.CTFrameLayout>
+
+</RelativeLayout>

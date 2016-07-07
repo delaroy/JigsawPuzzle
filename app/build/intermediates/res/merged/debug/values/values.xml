@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#000000ff</color>
+    <color name="drop_target_color1">#00993311</color>
+    <color name="drop_target_color2">#00a99033</color>
+    <color name="drop_target_disabled">#00dddddd</color>
+    <color name="drop_target_enabled">#00009933</color>
+    <color name="green">#0000ff00</color>
+    <color name="red">#00ff0000</color>
+    <string name="app_name">Kids Jigsaw Puzzles</string>
+    <string name="homebutton">Home button - Go to home splash screen</string>
+    <string name="puzzledone">Puzzle completion layout</string>
+    <string name="puzzlelayout">Puzzle layout</string>
+    <string name="uri_app_link">https://play.google.com/store/apps/developer?id=YourDevID</string>
+    <string name="uri_app_rate">market://details?id=codebhak.jigsaw.puzzle.kids</string>
+    <string name="uri_more_app">market://search?q=DeveloperID jigsaw</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>
